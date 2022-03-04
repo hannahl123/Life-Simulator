@@ -41,7 +41,7 @@ if gender == "M":
   print("3. A stroller painted a variety of blues and greens")
   sleep(1)
   mchoice1 = input("Reply 1, 2, or 3: ")
-  # Second loop
+  # Second loop 1.1 (1 Year old Gift Choice)
   if mchoice1 == "1":
     sleep(0.5)
     print(f"'I knew it! {maleName} loves money just like I do. He's only one year old and he already knows to pick the most expensive gift,' says your dad.")
@@ -58,7 +58,7 @@ if gender == "M":
     print("3. Sit back down and pretend nothing happened")
     sleep(1)
     mchoice2 = input("Choose 1, 2, or 3: ")
-    # Third loop
+    # Third loop 1.1
     if mchoice2 == "1":
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
@@ -67,19 +67,19 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-    # Third loop
+    # Third loop 1.2
     elif mchoice2 == "2":
       print(f"'Oh my, look, {maleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
       
-    # Third loop
+    # Third loop 1.3
     elif mchoice2 == "3":
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
 
-  # Second loop
+  # Second loop 1.2 (1 Year old Gift Choice)
   elif mchoice1 == "2":
     sleep(0.5)
     print(f"'What a cute boy, {maleName} knows to pick the coziest, warmest present,' says your mom.")
@@ -88,7 +88,7 @@ if gender == "M":
     print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
     
 
-  # Second loop
+  # Second loop 1.3 (1 Year old Gift Choice)
   elif mchoice1 == "3":
     sleep(0.5)
     print(f"'You want to go outside huh? An outside person just like me!' says your dad.")
@@ -105,7 +105,7 @@ if gender == "M":
     print("3. Sit back down and pretend nothing happened")
     sleep(1)
     mchoice2 = input("Choose 1, 2, or 3: ")
-    # Third loop
+    # Third loop 2.1
     if mchoice2 == "1":
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
@@ -114,19 +114,19 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-    # Third loop
+    # Third loop 2.2
     elif mchoice2 == "2":
       print(f"'Oh my, look, {maleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
       
-    # Third loop
+    # Third loop 2.3
     elif mchoice2 == "3":
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
 
-  # Second loop
+  # Second loop 1.4
   else:
     sleep(0.5)
     print("Aha, I see you've chosen the secret gift, a...")
@@ -157,14 +157,16 @@ elif gender == "F":
   print("2. A comfy, knitted, pink and white one-piece set of pyjamas")
   print("3. A stuffed unicorn with silky, pink fur and a sparkling, gold horn")
   fChoice1 = input("Reply 1, 2, or 3: ")
-  # Second Loop
+  # Second Loop 2.1
   if fChoice1 == "1":
     print("")
+  # Second Loop 2.2
   elif fChoice1 == "2":
     print("")
+  # Second Loop 2.3
   elif fChoice1 == "3":
     print("")
-  # Second loop
+  # Second loop 2.4
   else:
     sleep(0.5)
     print("Aha, I see you've chosen the secret gift, a...")
