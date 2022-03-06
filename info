@@ -1,0 +1,47 @@
+Last name
+Gender
+First name
+
+1 Year Old -> Birthday Party
+> Choose gift (if else)
+
+4 Years Old -> First day of kindergarten
+> Choose friend(s) (set var)
+
+14 Years Old -> Elementary school graduation
+> Choose to spend summer studying or playing (if else)
+
+18 Years Old -> High school graduation
+> Choose university (set var)
+
+22 Years Old -> University graduation
+> Choose job / country of job (set var)
+
+25 Years Old -> Marriage
+> Choose type of wedding (if else)
+
+28 Years Old -> Birth of your child
+> Choose gender of child
+
+40 Years Old -> Vacation to place of your choice
+> C
+
+46 Years Old -> Child graduates from high school
+
+50 Years Old -> Child graduates from university
+
+55 Years Old -> Child marries
+
+60 Years Old -> Takes care of grandchildren (twins)
+
+65 Years Old -> Retire
+
+70 Years Old -> Attends grandchildrens' elementary graduation
+
+74 Years Old -> Grandchildren have graduated from university
+
+80 Years Old -> You attend your grandchildren's weddings
+
+86 Years Old -> Your last tooth has fallen out
+
+90 Years Old -> 
