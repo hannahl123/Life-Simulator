@@ -67,6 +67,15 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
+
+      
     # Male Choice 1
     elif mchoice2 == "2":
       sleep(0.5)
@@ -75,6 +84,13 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
       
     # Male Choice 1
     elif mchoice2 == "3":
@@ -84,6 +100,13 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
 
   # 1 Year old Gift Choice -> Pyjamas
   elif mchoice1 == "2":
@@ -92,6 +115,13 @@ if gender == "M":
     print("...")
     sleep(5)
     print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+    sleep(7)
+    print("You've arrived at the kindergarten. Looking around, you choose to: ")
+    sleep(2)
+    print("1. Go over to the group of boys playing soccer on the field")
+    print("2. Join some kids sitting in the classroom reading a storybook")
+    print("3. Stay with your parents")
+    mchoice3 = input("Choose [1/2/3]: ")
     
   # 1 Year old Gift Choice -> Stroller
   elif mchoice1 == "3":
@@ -119,16 +149,39 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
+      
     # Male Choice 1
     elif mchoice2 == "2":
       print(f"'Oh my, look, {maleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
+      
     # Male Choice 1
     elif mchoice2 == "3":
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of boys playing soccer on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
+      mchoice3 = input("Choose [1/2/3]: ")
 
   # 1 Year old Gift Choice -> Secret
   else:
@@ -188,17 +241,35 @@ elif gender == "F":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
     # Female Choice 1
     elif fchoice2 == "2":
       print(f"'Oh my, look, {femaleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
       
     # Female Choice 1
     elif fchoice2 == "3":
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
   # 1 Year old Female Gift Choice -> Pyjamas
   elif fChoice1 == "2":
     sleep(0.5)
@@ -206,6 +277,12 @@ elif gender == "F":
     print("...")
     sleep(5)
     print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+    sleep(7)
+    print("You've arrived at the kindergarten. Looking around, you choose to: ")
+    sleep(2)
+    print("1. Go over to the group of girls playing hop scotch on the field")
+    print("2. Join some kids sitting in the classroom reading a storybook")
+    print("3. Stay with your parents")
   # 1 Year old Female Gift Choice -> Stroller
   elif fChoice1 == "3":
     sleep(0.5)
@@ -232,16 +309,34 @@ elif gender == "F":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
     # Female Choice 1
     elif mchoice2 == "2":
       print(f"'Oh my, look, {femaleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       print("...")
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
     # Female Choice 1
     elif mchoice2 == "3":
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       print("...")
-      print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for tahe first day of kindergarten.")
+      sleep(7)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      print("3. Stay with your parents")
   # 1 Year old Gift Choice -> Secret
   else:
     sleep(0.5)
