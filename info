@@ -6,29 +6,29 @@ First name
 > Choose gift (if else)
 
 4 Years Old -> First day of kindergarten
-> Choose friend(s) (set var)
+> Choose what to do (if else)
 
 14 Years Old -> Elementary school graduation
-> Choose to spend summer studying or playing (if else)
+> No choice
 
 18 Years Old -> High school graduation
 > Choose university (set var)
 
 22 Years Old -> University graduation
-> Choose job / country of job (set var)
+> Choose country of job (set var)
 
 25 Years Old -> Marriage
-> Choose type of wedding (if else)
+> Choose marriage/not (if else)
 
-28 Years Old -> Birth of your child
+30 Years Old -> Birth of your child
 > Choose gender of child
 
-40 Years Old -> Vacation to place of your choice
-> C
+45 Years Old -> Vacation to place of your choice
+> Choose country
 
-46 Years Old -> Child graduates from high school
+48 Years Old -> Child graduates from high school
 
-50 Years Old -> Child graduates from university
+52 Years Old -> Child graduates from university
 
 55 Years Old -> Child marries
 
@@ -36,15 +36,13 @@ First name
 
 65 Years Old -> Retire
 
-70 Years Old -> Attends grandchildrens' elementary graduation
+74 Years Old -> Attends grandchildrens' elementary graduation
 
-74 Years Old -> Grandchildren have graduated from high school
+78 Years Old -> Grandchildren have graduated from high school
 
-85 Years Old -> You attend your grandchildren's weddings
+88 Years Old -> You attend your grandchildren's weddings
 
-88 Years Old -> Your last tooth has fallen out
+92 Years Old -> Your last tooth has fallen out
 
-92 Years Old -> Walk in the garden
-
-100 Years Old -> Die
-> Choose car crash or heart attack
+100 Years Old -> Death
+> peacefully

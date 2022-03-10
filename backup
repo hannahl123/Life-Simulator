@@ -22,9 +22,9 @@ if gender == "M":
   sleep(0.5)
   print("The baby's a boy! Now what should we call him...")
   sleep(2)
-  maleName = input("Choose your name: ")
+  firstName = input("Choose your name: ")
   sleep(0.5)
-  print(f"That's it! Let's call the baby {maleName} {lastname}!")
+  print(f"That's it! You are called {firstName} {lastname}!")
   print("...")
   sleep(2)
   print("You grow up happily for a year. When you are 1 year old, your family decides to hold a birthday party for you.")
@@ -32,33 +32,33 @@ if gender == "M":
   print("You receive many presents, some big some small. They are piled up in front of you.")
   sleep(5)
   print("Your mother urges you to pick your favourite. You choose: ")
-  sleep(3)
+  sleep(2)
   print("1. A white crib outlined in real gold")
   sleep(1)
   print("2. A comfy, knitted, blue and white one-piece set of pyjamas")
   sleep(1)
   print("3. A stroller painted a variety of blues and greens")
   sleep(1)
-  mchoice1 = input("Reply 1, 2, or 3: ")
+  choice1 = input("Reply 1, 2, or 3: ")
   # 1 Year old Gift Choice -> Crib
-  if mchoice1 == "1":
+  if choice1 == "1":
     sleep(0.5)
-    print(f"'I knew it! {maleName} loves money just like I do. He's only one year old and he already knows to pick the most expensive gift,' says your dad.")
+    print(f"'I knew it! {firstName} loves money just like I do. He's only one year old and he already knows to pick the most expensive gift,' says your dad.")
     print("...")
     sleep(5)
     print("Your parents are setting up your new crib. In the meantime, you are crawling around filled with energy.")
     sleep(5)
     print("Suddenly, you somehow manage to stand up. Your parents do not notice. Your options are: ")
-    sleep(3.5)
+    sleep(3)
     print("1. Try and walk forward step by step")
     sleep(1)
     print("2. Make a noise that grabs your parents' attention")
     sleep(1)
     print("3. Sit back down and pretend nothing happened")
     sleep(1)
-    mchoice2 = input("Choose 1, 2, or 3: ")
+    choice2 = input("Choose 1, 2, or 3: ")
     # Male Choice 1
-    if mchoice2 == "1":
+    if choice2 == "1":
       sleep(0.5)
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
@@ -67,116 +67,258 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+        sleep(8)
+        
+        # new
+        print("...")
+        sleep(1)
+        print("10 years have passed. You are now graduating from elementary school. Your parents and cousins attended your graduation ceremony. You earned the Honours Award and the Leadership Award, earning yourself your favourite item as a present from your parents.")
+        sleep(11)
+        print("...")
+        sleep(1)
+        print("Another 4 years have passed by quickly. You are soon graduating from high school. It is time to choose your future university/college.")
+        sleep(6)
+        print("What is your dream university/college?")
+        sleep(1)
+        choice4uni = input("")
+        sleep(0.5)
+        print("...")
+        sleep(1)
+        print(f"Another few months have passed. You are with your parents and friends at your high school graduation ceremony. You have earned a $10,000 scholarship to go to {choice4uni}.")
+        sleep(10)
+        print("...")
+        sleep(1)
+        print(f"4 years flew by, and you have graduated from {choice4uni} successfully. It is now time to choose the country of your future job.")
+        sleep(5)
+        choice5country = input("Enter the name of the country you'd like to live in: ")
+        sleep(1)
+        print(f"You have successfully found the perfect job for you in {choice5country}.")
+        sleep(3)
+        print("...")
+        sleep(0.5)
+        print(f"After 1 month, you have settled in your new home in {choice5country}. Your new colleagues are extremely friendly and welcoming. You have already gone to 3 parties in the short period of time you've been here.")
+        sleep(10)
+        print("...")
+        sleep(1)
+        print("Another 3 years have passed. You like one of your female colleagues and they like you, too. You choose to: ")
+        sleep(6)
+        print("1. Marry her")
+        sleep(0.5)
+        print("2. Don't marry (you will not have another option to marry in the rest of your life)")
+        sleep(2)
+        choice6marriage = input("Choose [1/2]: ")
+        # Male Choice
+        if choice6marriage == "1":
+          sleep(0.5)
+          print("You have married your female colleague (now your wife). You live happily for 5 years before your wife is pregnant. What gender do you want your baby to be?)")
+          sleep(8)
+          print("P.S. This is your only child in your whole life.")
+          sleep(3)
+          choice7baby = input("Enter [boy] for a baby boy or [girl] for a baby girl: ")
+          sleep(0.5)
+          print(f"Your wife has successfully given birth to your first and only child, which is a {choice7baby}.")
+          sleep(4)
+          babyname = input("Choose a name for your child: ")
+          sleep(0.5)
+          print(f"Great! Your child is called {babyname}.")
+          sleep(2)
+          print("...")
+          sleep(1)
+          print("15 years have passed and your child is now old enough to live for 2 weeks alone. You may take a vacation to the place of your choosing: ") 
+          sleep(8)
+          choice8vacation = input("Enter the name of the country/place you wish to visit: ")
+          sleep(0.5)
+          print(f"For 2 weeks, you and your wife have a relaxing vacation in {choice8vacation}.")
+          sleep(3)
+          print("...")
+          sleep(0.5)
+          print(f"Another 3 years have passed by and {babyname} is now 18 years old. They have graduated from high school and chose to go to the same university as you.")
+          sleep(9)
+          print(f"Another 4 years have passed and {babyname} has graduated from {choice4uni}. You are now 52 years old.")
+          sleep(3)
+          print("...")
+          sleep(0.5)
+          print("After another 3 years, you are now 55 years old. Your child has managed to find their true love and holds a beautiful wedding.")
+          print("")
+          sleep(7)
+          print("When you are 60 years old, your grandchildren are born - they are identical twins, one boy one girl. Their parents are too busy with their job so the twins are given to you and your wife to take care of.")
+          sleep(12)
+          print("")
+          print("After your grandchildren graduate from high school, they leave the province to go to their favourite university. By this time, you are 78 years old.")
+          sleep(7)
+          print("")
+          print("Another 10 years have passed. After graduating from university, your grandchildren have returned to find a job near you. In the 6 years, they have both found their wife/husband. You are now 88 years old.")
+          sleep(8)
+          print("")
+          print("At 92 years old, you are still alive. Your last tooth has recently fallen out.")
+          sleep(4)
+          print("")
+          print("Amazing thing is that you have lived to 100 years old! Sadly, your life ends here. You die peacefully in sleep.")
+        
+        # end
+
+        
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Male Choice 1
-    elif mchoice2 == "2":
+    elif choice2 == "2":
       sleep(0.5)
-      print(f"'Oh my, look, {maleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+      print(f"'Oh my, look, {firstName} has stood up!' says your dad. Your mother rushes over and cries happily.")
       sleep(5)
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
         
     # Male Choice 1
-    elif mchoice2 == "3":
+    elif choice2 == "3":
       sleep(0.5)
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
       sleep(4)
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
 
   # 1 Year old Gift Choice -> Pyjamas
-  elif mchoice1 == "2":
+  elif choice1 == "2":
     sleep(0.5)
-    print(f"'What a cute boy, {maleName} knows to pick the coziest, warmest present,' says your mom.")
+    print(f"'What a cute boy, {firstName} knows to pick the coziest, warmest present,' says your mom.")
+    sleep(2)
     print("...")
-    sleep(5)
+    sleep(0.5)
     print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-    sleep(7)
+    sleep(6)
     print("You've arrived at the kindergarten. Looking around, you choose to: ")
     sleep(2)
     print("1. Go over to the group of boys playing soccer on the field")
+    sleep(2)
     print("2. Join some kids sitting in the classroom reading a storybook")
+    sleep(2)
     print("3. Stay with your parents")
-    mchoice3 = input("Choose [1/2/3]: ")
-    
+    sleep(1)
+    choice3 = input("Choose [1/2/3]: ")
+    if choice3 == "1":
+      # play on field
+      print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
+    elif choice3 == "2":
+      # read books
+      print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+    elif choice3 == "3":
+      # stay with parents
+      print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
+    else:
+      print("Please restart and choose a valid choice.")
+      sleep(2)
+      print("GAME ENDED")
+      sleep(1)
+      print("...")
+      
   # 1 Year old Gift Choice -> Stroller
-  elif mchoice1 == "3":
+  elif choice1 == "3":
     sleep(0.5)
     print(f"'You want to go outside huh? An outside person just like me!' says your dad.")
+    sleep(2)
     print("...")
-    sleep(3)
+    sleep(0.5)
     print("Your parents are setting up your new stroller. In the meantime, you are crawling around filled with energy.")
     sleep(5)
     print("Suddenly, you somehow manage to stand up. Your parents do not notice. Your options are: ")
-    sleep(3.5)
+    sleep(3)
     print("1. Try and walk forward step by step")
-    sleep(1)
+    sleep(2)
     print("2. Make a noise that grabs your parents' attention")
-    sleep(1)
+    sleep(2)
     print("3. Sit back down and pretend nothing happened")
-    sleep(1)
-    mchoice2 = input("Choose 1, 2, or 3: ")
+    sleep(2)
+    choice2 = input("Choose 1, 2, or 3: ")
     # Male Choice 1
-    if mchoice2 == "1":
+    if choice2 == "1":
+      sleep(0.5)
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
       print("The thump you made from falling catches your parents' attention. They rush over and hold you while looking for bruises.")
@@ -184,75 +326,111 @@ if gender == "M":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Male Choice 1
-    elif mchoice2 == "2":
-      print(f"'Oh my, look, {maleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+    elif choice2 == "2":
+      sleep(0.5)
+      print(f"'Oh my, look, {firstName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+      sleep(2)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
 
     # Male Choice 1
-    elif mchoice2 == "3":
+    elif choice2 == "3":
+      sleep(0.5)
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
+      sleep(2)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of boys playing soccer on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      mchoice3 = input("Choose [1/2/3]: ")
-      if mchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif mchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif mchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
 
   # 1 Year old Gift Choice -> Secret
   else:
@@ -262,21 +440,26 @@ if gender == "M":
     print("Thump")
     sleep(1)
     print("Thump")
-    sleep(0.5)
+    sleep(1)
     print("Thump")
     sleep(1)
     print("Hey you, it's time to wake up.")
     print("...")
     print("")
-    sleep(2.5)
+    sleep(2)
     print("GAME ENDED")
+    sleep(1)
+    print("...")
 
 # Choose gender
 elif gender == "F":
   # First name
+  sleep(0.5)
   print("The baby's a girl! Now what should we call her...")
-  femaleName = input("Choose your name: ")
-  print(f"That's it! Let's call the baby {femaleName} {lastname}!")
+  sleep(2)
+  firstName = input("Choose your name: ")
+  sleep(0.5)
+  print(f"That's it! You are called {firstName} {lastname}!")
   print("...")
   sleep(2)
   print("You grow up happily for a year. When you are 1 year old, your family decides to hold a birthday party for you.")
@@ -291,19 +474,27 @@ elif gender == "F":
   sleep(1)
   print("3. A stroller painted a variety of different flowers")
   sleep(1)
-  fChoice1 = input("Reply 1, 2, or 3: ")
+  choice1 = input("Reply 1, 2, or 3: ")
   # 1 Year old Female Gift Choice ->  Crib
-  if fChoice1 == "1":
-    print(f"'Aha, {femaleName} likes shiny objects, doesn't she.' says your dad.")
+  if choice1 == "1":
+    sleep(0.5)
+    print(f"'Aha, {firstName} likes shiny objects, doesn't she.' says your dad.")
     print("...")
+    sleep(5)
     print("Your parents are setting up your new crib. In the meantime, you are crawling around filled with energy.")
+    sleep(3)
     print("Suddenly, you somehow manage to stand up. Your parents do not notice. Your options are: ")
+    sleep(1)
     print("1. Try and walk forward step by step")
+    sleep(1)
     print("2. Make a noise that grabs your parents' attention")
+    sleep(1)
     print("3. Sit back down and pretend nothing happened")
-    fchoice2 = input("Choose 1, 2, or 3: ")
+    sleep(1)
+    choice2 = input("Choose 1, 2, or 3: ")
     # Female Choice 1
-    if fchoice2 == "1":
+    if choice2 == "1":
+      sleep(0.5)
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
       print("The thump you made from falling catches your parents' attention. They rush over and hold you while looking for bruises.")
@@ -311,198 +502,281 @@ elif gender == "F":
       print("...")
       sleep(1)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {femaleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(1)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Female Choice 1
-    elif fchoice2 == "2":
-      print(f"'Oh my, look, {femaleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+    elif choice2 == "2":
+      sleep(0.5)
+      print(f"'Oh my, look, {firstName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+      sleep(5)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {femaleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Female Choice 1
-    elif fchoice2 == "3":
+    elif choice2 == "3":
+      sleep(0.5)
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
+      sleep(5)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
 
   # 1 Year old Female Gift Choice -> Pyjamas
-  elif fChoice1 == "2":
+  elif choice1 == "2":
     sleep(0.5)
-    print(f"'What a cute girl, {femaleName} knows to pick the coziest, warmest present,' says your mom.")
-    print("...")
+    print(f"'What a cute girl, {firstName} knows to pick the coziest, warmest present,' says your mom.")
     sleep(5)
+    print("...")
+    sleep(0.5)
     print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-    sleep(7)
+    sleep(6)
     print("You've arrived at the kindergarten. Looking around, you choose to: ")
     sleep(2)
     print("1. Go over to the group of girls playing hop scotch on the field")
+    sleep(2)
     print("2. Join some kids sitting in the classroom reading a storybook")
+    sleep(2)
     print("3. Stay with your parents")
-    fchoice3 = input("Choose [1/2/3]: ")
-    if fchoice3 == "1":
+    sleep(1)
+    choice3 = input("Choose [1/2/3]: ")
+    if choice3 == "1":
       # play on field
+      sleep(0.5)
       print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-    elif fchoice3 == "2":
+    elif choice3 == "2":
       # read books
-      print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-    elif fchoice3 == "3":
+      sleep(0.5)
+      print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+    elif choice3 == "3":
       # stay with parents
+      sleep(0.5)
       print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
     else:
+      sleep(0.5)
       print("Please restart and choose a valid choice.")
+      sleep(2)
       print("GAME ENDED")
+      sleep(1)
+      print("...")
     
   # 1 Year old Female Gift Choice -> Stroller
-  elif fChoice1 == "3":
+  elif choice1 == "3":
     sleep(0.5)
     print(f"'You want to go outside huh? An outside person just like me!' says your dad.")
-    print("...")
     sleep(3)
+    print("...")
+    sleep(0.5)
     print("Your parents are setting up your new stroller. In the meantime, you are crawling around filled with energy.")
     sleep(5)
     print("Suddenly, you somehow manage to stand up. Your parents do not notice. Your options are: ")
-    sleep(3.5)
+    sleep(4)
     print("1. Try and walk forward step by step")
     sleep(1)
     print("2. Make a noise that grabs your parents' attention")
     sleep(1)
     print("3. Sit back down and pretend nothing happened")
     sleep(1)
-    fchoice2 = input("Choose 1, 2, or 3: ")
+    choice2 = input("Choose 1, 2, or 3: ")
     # Female Choice 1
-    if fchoice2 == "1":
+    if choice2 == "1":
       print("You try and move your left foot forward. You end up falling and sit on the ground, stunned.")
       sleep(4)
       print("The thump you made from falling catches your parents' attention. They rush over and hold you while looking for bruises.")
       sleep(6)
       print("...")
+      sleep(0.5)
+      print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
+      sleep(6)
+      print("You've arrived at the kindergarten. Looking around, you choose to: ")
+      sleep(2)
+      print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
+      print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
+      print("3. Stay with your parents")
       sleep(1)
-      print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
-      print("You've arrived at the kindergarten. Looking around, you choose to: ")
-      sleep(2)
-      print("1. Go over to the group of girls playing hop scotch on the field")
-      print("2. Join some kids sitting in the classroom reading a storybook")
-      print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Female Choice 1
-    elif fchoice2 == "2":
-      print(f"'Oh my, look, {femaleName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+    elif choice2 == "2":
+      print(f"'Oh my, look, {firstName} has stood up!' says your dad. Your mother rushes over and cries happily.")
+      sleep(5)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for the first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
       
     # Female Choice 1
-    elif fchoice2 == "3":
+    elif choice2 == "3":
+      sleep(0.5)
       print("Sitting back down, you continue to crawl around looking for toys and fun things to do.")
+      sleep(5)
       print("...")
+      sleep(0.5)
       print("Three years have passed. You are now 4 years old. Your mother is bustling around getting you ready for tahe first day of kindergarten.")
-      sleep(7)
+      sleep(6)
       print("You've arrived at the kindergarten. Looking around, you choose to: ")
       sleep(2)
       print("1. Go over to the group of girls playing hop scotch on the field")
+      sleep(2)
       print("2. Join some kids sitting in the classroom reading a storybook")
+      sleep(2)
       print("3. Stay with your parents")
-      fchoice3 = input("Choose [1/2/3]: ")
-      if fchoice3 == "1":
+      sleep(1)
+      choice3 = input("Choose [1/2/3]: ")
+      if choice3 == "1":
         # play on field
+        sleep(0.5)
         print("While playing, you accidentally fall and scrape your knee. The blood makes your friends cry and the teachers come over to calm them down and treat your knee.")
-      elif fchoice3 == "2":
+      elif choice3 == "2":
         # read books
-        print(f"'Oh what a sweet child {maleName} is,' says your teacher.")
-      elif fchoice3 == "3":
+        sleep(0.5)
+        print(f"'Oh what a sweet child {firstName} is,' says your teacher.")
+      elif choice3 == "3":
         # stay with parents
+        sleep(0.5)
         print("Your parents are patiently trying to calm you down and convince you to go to kindergarten, but your whining is annoying your parents. They are end up leaving you with the teacher and have left.")
       else:
+        sleep(0.5)
         print("Please restart and choose a valid choice.")
+        sleep(2)
         print("GAME ENDED")
+        sleep(1)
+        print("...")
 
   # 1 Year old Gift Choice -> Secret
   else:
@@ -521,4 +795,5 @@ elif gender == "F":
     sleep(2.5)
     print("GAME ENDED")
 else: 
+  sleep(0.5)
   print("Please restart and choose a valid option")
